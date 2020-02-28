@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="OrangeHRM" duration-ms="30242" started-at="2020-02-28T17:29:41Z" finished-at="2020-02-28T17:30:11Z">
+    <groups>
+      <group name="LoginGroup">
+        <method signature="LoginTests.TC1VerifyValidAdminUser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.orangehrm.tests.LoginTests@837a77]" name="TC1VerifyValidAdminUser" class="com.orangehrm.tests.LoginTests"/>
+      </group> <!-- LoginGroup -->
+    </groups>
+    <test name="OrangeHRM test" duration-ms="30242" started-at="2020-02-28T17:29:41Z" finished-at="2020-02-28T17:30:11Z">
+      <class name="com.orangehrm.tests.LoginTests">
+        <test-method status="PASS" signature="TC1VerifyValidAdminUser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.orangehrm.tests.LoginTests@837a77]" name="TC1VerifyValidAdminUser" duration-ms="27399" started-at="2020-02-28T17:29:42Z" data-provider="excelData" finished-at="2020-02-28T17:30:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Aman12019112313024]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Aman123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Welcome Anup]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC1VerifyValidAdminUser -->
+        <test-method status="PASS" signature="TC1VerifyValidAdminUser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.orangehrm.tests.LoginTests@837a77]" name="TC1VerifyValidAdminUser" duration-ms="28340" started-at="2020-02-28T17:29:42Z" data-provider="excelData" finished-at="2020-02-28T17:30:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Welcome Admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC1VerifyValidAdminUser -->
+        <test-method status="PASS" signature="afterSuit()[pri:0, instance:com.orangehrm.tests.LoginTests@837a77]" name="afterSuit" is-config="true" duration-ms="306" started-at="2020-02-28T17:30:12Z" finished-at="2020-02-28T17:30:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuit -->
+      </class> <!-- com.orangehrm.tests.LoginTests -->
+    </test> <!-- OrangeHRM test -->
+  </suite> <!-- OrangeHRM -->
+</testng-results>
